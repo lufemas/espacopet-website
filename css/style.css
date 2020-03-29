@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding:  0 2rem;
+  overflow: hidden;
+}
+
+.text-center { text-align: center; }
+
+.text-primary { color: rgb(187, 54, 47); }
+
+.bg-light {
+  background: rgb(204, 61, 54);
+  color: #fff;
+}
+
+.bg-dark {
+  background: #6D130B;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #FFDFB4;
+  color: #fff;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem ;
+  line-height: 1.1;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem ;
+  line-height: 1.1;
+}
+
+
+.py-1 { padding: 1.5rem 0; }
+.py-2 { padding: 2rem 0; }
+.py-3 { padding: 3rem 0; }
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem ; }
+
+
+
+/* Navbar */
+.navbar-main {
+  display: flex;
+  position: sticky;
+  top: 0;
+  /* background: #fff;
+  color: #6D130B; */
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0rem 1rem;
+}
+
+.navbar-main .logo{
+  /* background: #555; */
+  margin: 0;
+  padding: 0.4rem 0rem;
+}
+
+.navbar-main .logo h1 {
+  padding: 0rem 0rem 0 1rem;
+  color: #111;
+  display: inline;
+  vertical-align: middle;
+}
+
+.navbar-main .logo img{
+  display: inline ;
+  vertical-align: middle;
+  height: 2.6rem;
+  padding: 0rem 0rem 0 1rem;
+}
+
+.navbar-main ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0rem 0rem;
+}
+
+.navbar-main ul li a{
+  color: #000;
+  font-weight: bold;
+  padding:  0.75rem;
+  margin 0 0.25rem;
+}
+
+.navbar-main ul li a:hover {
+  background: rgb(255, 255, 255);
+  font-weight: bold;
+  color: #111;
+  border-radius: 0;
+}
+
+.header-main {
+  text-align: center;
+}
+
+.header-main img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  max-width: 1200px;
+}
+
+.content-align{
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.about {
+  display: flex;
+}
+
+.about-text{
+  max-width: 50%;
+}
+
+.news {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  /* max-width: 70%; */
+  align-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.left-container{
+  flex: 40%;
+}
+
+.fb-msg{
+  flex: 20%;
+}
+
+.fb-page{
+
+}
+
+.contact address{
+
+}
